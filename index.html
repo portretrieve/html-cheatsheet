@@ -1,0 +1,775 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML Cheatsheet</title>
+    <link rel="icon" type="image/x-icon" href="./images/favicon.ico" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="container">
+    <main>
+      <header>
+        <h1 class="banner">HTML Cheatsheet</h1>
+      </header>
+      <nav>
+        <!-- ***********************  HTML Basics  *********************** -->
+        <div class="nav-section">
+          <h3>Basics of HTML</h3>
+          <ul>
+            <li><a href="#elements">HTML Elements</a></li>
+            <li>
+              <a href="#block-and-inline-elements"
+                >HTML Block and Inline Elements</a
+              >
+            </li>
+            <li><a href="#semantic-elements">HTML Semantic Elements</a></li>
+            <li>
+              <a href="#quotation-and-citation-elements"
+                >HTML Quotation and Citation Elements</a
+              >
+            </li>
+            <li><a href="#text-formatting">HTML Text Formatting</a></li>
+            <li><a href="#paragraphs">HTML Paragraphs</a></li>
+            <li><a href="#attributes">HTML Attributes</a></li>
+            <li><a href="#images">HTML Images</a></li>
+            <li><a href="#favicon">HTML Favicon</a></li>
+            <li><a href="#tables">HTML Tables</a></li>
+            <li><a href="#lists">HTML Lists</a></li>
+            <li>
+              <a href="#responsive-web-design">HTML Responsive Web Design</a>
+            </li>
+          </ul>
+        </div>
+        <!-- ***********************  HTML Forms  *********************** -->
+        <div class="nav-section">
+          <h3>HTML Forms</h3>
+          <ul>
+            <li><a href="#forms">HTML Forms</a></li>
+            <li><a href="#form-attributes">HTML Form Attributes</a></li>
+            <li><a href="#form-elements">HTML Form Elements</a></li>
+            <li><a href="#input-types">HTML Input Types</a></li>
+            <li>
+              &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+            </li>
+            <li>&nbsp</li>
+            <li>&nbsp</li>
+            <li>&nbsp</li>
+            <li>&nbsp</li>
+            <li>&nbsp</li>
+            <li>&nbsp</li>
+            <li>&nbsp</li>
+          </ul>
+        </div>
+        <!-- ***********************  HTML Media  *********************** -->
+        <div class="nav-section">
+          <h3>HTML Media</h3>
+          <ul>
+            <li><a href="#media">HTML Media</a></li>
+            <li><a href="#video">HTML Video</a></li>
+            <li><a href="#audio">HTML Audio</a></li>
+            <li>&nbsp</li>
+            <li>&nbsp</li>
+            <li>&nbsp</li>
+            <li>&nbsp</li>
+            <li>&nbsp</li>
+            <li>&nbsp</li>
+            <li>&nbsp</li>
+            <li>&nbsp</li>
+            <li>&nbsp</li>
+          </ul>
+        </div>
+      </nav>
+      <!-- ***********************  HTML Basics Section Begins*********************** -->
+      <section id="html-basics" class="section">
+        <h1>Basics of HTML</h1>
+
+        <div id="elements">
+          <h3>HTML Elements</h3>
+          <div>
+            <p>
+              The HTML element is everything from the start tag to the end tag.
+              The following example contains four HTML elements (html, body, h1
+              and p). html element contains 3 other elements and body element
+              containes 2 others.
+            </p>
+            <img src="./metaImages/html-elements.png" alt="" />
+            <p>
+              Please note difference between TAG and ELEMENT. An Element can be
+              a container for other elements. Like input element inside form
+              element. & p inside div element.
+            </p>
+            <p>
+              For the list of all elements click following link
+              <a
+                href="https://www.w3schools.com/tags/default.asp"
+                target="_blank"
+                >HTML Elements List</a
+              >
+            </p>
+          </div>
+        </div>
+
+        <hr />
+
+        <div id="block-and-inline-elements">
+          <h3>Block and Inline Elements in HTML</h3>
+          <p>
+            A block-level element always starts on a new line, and the browsers
+            automatically add some space (a margin) before and after the
+            element.
+          </p>
+          <p>
+            A block-level element always takes up the full width available
+            (stretches out to the left and right as far as it can).
+          </p>
+          <img src="./metaImages/block-level-html.png" />
+          <p></p>
+          <p>An inline element does not start on a new line.</p>
+          <p>An inline element only takes up as much width as necessary.</p>
+          <img src="./metaImages/inline-elements-html.png" />
+        </div>
+
+        <hr />
+
+        <div id="semantic-elements">
+          <h3>Semantic Elements in HTML</h3>
+          <p>
+            A semantic element clearly describes its meaning to both the browser
+            and the developer.
+          </p>
+          <img src="./metaImages/semantic-elements.png" alt="" />
+          <h3>Non-Semantic Elements in HTML</h3>
+          <p>
+            Examples of non-semantic elements: div & span - Tells nothing about
+            its content.
+          </p>
+        </div>
+
+        <hr />
+
+        <div id="quotation-and-citation-elements">
+          <h3>HTML Quotation and Citation Elements</h3>
+          <img src="./metaImages/quotation-and-citation-elements.png" alt="" />
+        </div>
+
+        <hr />
+
+        <div id="text-formatting">
+          <h3>HTML Text Formatting</h3>
+          <div></div>
+          <div class="inline-block" id="xyz">
+            <i>This text is italic.</i><br />
+            <strong> This text is important!</strong><br />
+            <mark>Marked Text. </mark><br />
+            <small> Smaller Text. </small><br />
+            <del> Deleted Text. </del> <br />
+            <ins> Inserted Text. </ins><br />
+            <p>Next is <sub> Subscripted text. </sub></p>
+            <p>Next is<sup> Superscripted Text.</sup></p>
+          </div>
+          <img
+            src="./metaImages/formattingElements.png"
+            alt="formatting elements html"
+          />
+        </div>
+
+        <hr />
+
+        <div id="paragraphs">
+          <h3>HTML Paragraphs</h3>
+          <p>Paragraphs are of two types p and pre</p>
+          <p>
+            p will not maintain structure and space but pre will. given below is
+            example of pre:
+          </p>
+          <pre>
+            This is 
+
+            example of 
+            pre paragraph.
+          </pre>
+          <div><img src="./metaImages/preTag.png" alt="" /></div>
+        </div>
+
+        <hr />
+
+        <div id="attributes">
+          <h3>HTML Attributes</h3>
+          <p>
+            HTML attributes provide additional information about HTML elements.
+            All HTML elements can have attributes.
+          </p>
+          <p>Attributes usually come in name/value pairs like: name="value".</p>
+          <p>
+            Examples: href, class, id, src, action, type, for, height, target
+            etc.
+          </p>
+          <p>
+            For complete list
+            <a
+              href="https://www.w3schools.com/tags/ref_attributes.asp"
+              target="_blank"
+              >HTML Attribute Reference
+            </a>
+          </p>
+        </div>
+
+        <hr />
+
+        <div id="images">
+          <h3>Images</h3>
+          <p>
+            img tag needs src and optional alt attribute. alt attribute tells
+            about image in case image not visible.
+          </p>
+          <p>
+            If you change the height or width of image inside HTML img tag other
+            will be automatically adjusted to keep aspect ratio.
+          </p>
+          <p>You can also specify the height and width in CSS.</p>
+          <p>
+            Resizing images with HTML/CSS should only be done if necessary. It
+            is usually better to use an image that is the correct size in the
+            first place than to resize it with HTML. This is because resizing it
+            with HTML doesn't reduce the file size — the full file still has to
+            be downloaded before it can be resized.
+          </p>
+          <p>Image below with width only adjusted</p>
+          <img src="./images/15.jpg" width="500" alt="" />
+          <p>Image below with height only adjusted</p>
+          <img src="./images/15.jpg" height="200" alt="" />
+
+          <p>Other HTML Image Tags. For more info click on image.</p>
+          <a
+            href="https://www.w3schools.com/html/html_images.asp"
+            target="_blank"
+            ><img src="./metaImages/otherImageTags.png"
+          /></a>
+        </div>
+
+        <hr />
+
+        <div id="favicon">
+          <h3>Favicons</h3>
+          <p>
+            A favicon is a small image displayed next to the page title in the
+            browser tab.
+          </p>
+          <p>
+            Tip: A favicon is a small image, so it should be a simple image with
+            high contrast.
+          </p>
+        </div>
+
+        <hr />
+
+        <div id="tables">
+          <h3>Tables</h3>
+          <p>A simple HTML Table below.</p>
+          <table>
+            <tr>
+              <th>Company</th>
+              <th>Contact</th>
+              <th>Country</th>
+            </tr>
+            <tr>
+              <td>Apple</td>
+              <td>Steve Jobs</td>
+              <td>USA</td>
+            </tr>
+            <tr>
+              <td>Reliance</td>
+              <td>Mukesh Ambani</td>
+              <td>India</td>
+            </tr>
+          </table>
+          <h4>HTML Table Colspan & Rowspan</h4>
+          <p>
+            HTML tables can have cells that span over multiple rows and/or
+            columns.
+          </p>
+          <h4>Table below with Name spanning over 2 columns.</h4>
+          <table>
+            <tr>
+              <th colspan="2">Name</th>
+              <th>Age</th>
+            </tr>
+            <tr>
+              <td>Jill</td>
+              <td>Smith</td>
+              <td>43</td>
+            </tr>
+            <tr>
+              <td>Eve</td>
+              <td>Jackson</td>
+              <td>57</td>
+            </tr>
+          </table>
+          <h4>Table below with Phone spanning over 2 rows.</h4>
+          <table>
+            <tr>
+              <th>Name</th>
+              <td>Jill</td>
+            </tr>
+            <tr>
+              <th rowspan="2">Phone</th>
+              <td>555-1234</td>
+            </tr>
+            <tr>
+              <td>555-8745</td>
+            </tr>
+          </table>
+        </div>
+
+        <hr />
+
+        <div id="lists">
+          <h3>Lists</h3>
+          <h4>An Unordered HTML List</h4>
+
+          <ul>
+            <li>Coffee</li>
+            <li>Tea</li>
+            <li>Milk</li>
+          </ul>
+
+          <h4>An Ordered HTML List</h4>
+
+          <ol>
+            <li>Coffee</li>
+            <li>Tea</li>
+            <li>Milk</li>
+          </ol>
+
+          <h4>HTML Description Lists</h4>
+          <dl>
+            <dt>Coffee</dt>
+            <dd>- black hot drink</dd>
+            <dt>Milk</dt>
+            <dd>- white cold drink</dd>
+          </dl>
+          <p>
+            The <strong>dl</strong> tag defines the description list, the
+            <strong>dt</strong> tag defines the term (name), and the
+            <strong>dd</strong> tag describes each term:
+          </p>
+          <img src="./metaImages/descriptionList.png" alt="" />
+        </div>
+
+        <hr />
+
+        <div id="responsive-web-design">
+          <h3>HTML Responsive Web Design</h3>
+        </div>
+      </section>
+      <!-- ***********************  HTML Basics Section Ends *********************** -->
+
+      <a href="#top"><button class="top">Scroll to Top</button></a>
+
+      <!-- ***********************  HTML Forms  Section Begins*********************** -->
+      <section id="html-forms" class="section">
+        <div id="forms">
+          <h1>HTML Forms</h1>
+          <p>
+            An HTML form is used to collect user input. The user input is most
+            often sent to a server for processing.
+          </p>
+          <h2>HTML Form vs HTML form element</h2>
+          <p>
+            The HTML <strong>form</strong> element is used to create an HTML
+            form for user input. Notice difference between HTML Form and form
+            element.
+          </p>
+          <p>
+            The <strong>form</strong> element is a container for different types
+            of form elements, such as:
+            <strong
+              >input, select, checkboxes, radio buttons, submit buttons</strong
+            >, etc.
+          </p>
+          <img src="./metaImages/html-form-elements.png" alt="" />
+          <p>
+            Given below is a simple form. If you click the "Submit" button, the
+            form-data will be sent to a page called "/action_page.php".
+          </p>
+          <form
+            action="/action_page.php"
+            method="post"
+            autocomplete="off"
+            target="_blank"
+            novalidate
+          >
+            <label for="fname">First name:</label><br />
+            <input type="text" id="fname" name="fname" value="John" /><br />
+            <label for="lname">Last name:</label><br />
+            <input
+              type="text"
+              id="lname"
+              name="lname"
+              value="Doe"
+            /><br /><br />
+            <input type="submit" value="Submit" />
+          </form>
+          <br />
+          <img src="./metaImages/simple-form.png" alt="" />
+        </div>
+
+        <hr />
+
+        <div id="form-attributes">
+          <h2>HTML Form Attributes</h2>
+          <img src="./metaImages/all-form-attributes.png" alt="" />
+        </div>
+
+        <hr />
+
+        <div id="form-elements">
+          <h2>Elements within HTML Form Elements</h2>
+
+          <div id="input-element">
+            <h3>The input Element</h3>
+            <p>
+              One of the most used form elements is the <b>input</b> element. It
+              can be of multiple types depending on it's <b>type</b> attribute.
+            </p>
+            <h4>Input Element Attributes</h4>
+            <p><b>type:</b> It specifies type of input field.</p>
+            <p>
+              <b>id:</b> id is only needed to work with <b>for</b> attribute of
+              label.
+            </p>
+            <p>
+              <b>name:</b> name is to just give name to an inpute type. like
+              text, password, radio etc. <b>IMPORTANT:</b> name will be the same
+              for all input fields in input type <b>radio</b>.
+            </p>
+            <br />
+            <p>
+              <b>value:</b> The input value attribute specifies an initial value
+              for an input field.
+            </p>
+            <p>
+              <b>readonly:</b> The input readonly attribute specifies that an
+              input field is read-only and can not be modified and will be sent
+              while submitting form.
+            </p>
+            <p>
+              <b>disabled:</b> The input disabled attribute specifies that an
+              input field should be disabled. A disabled input field is unusable
+              and un-clickable and no value will be sent upon submitting the
+              form.
+            </p>
+            <p>
+              <b>size:</b> The input size attribute specifies the visible width,
+              in characters, of an input field and works with the following
+              input types: text, search, tel, url, email, and password.
+            </p>
+            <p>
+              <b>maxlength:</b> The input maxlength attribute specifies the
+              maximum number of characters allowed in an input field.
+            </p>
+            <p>
+              <b>min and max:</b>The input min and max attributes specify the
+              minimum and maximum values for an input field. The min and max
+              attributes work with the following input types: number, range,
+              date, datetime-local, month, time and week.
+            </p>
+
+            <div id="input-types"><h3>Input Types</h3></div>
+            <img src="./metaImages/input-types.png" alt="" />
+            <br /><br />
+            <h4>Most common input types used in a form below.</h4>
+
+            <form>
+              <label for="userName">Username (Type Text):</label><br />
+              <input type="text" id="userName" name="username" />
+              <br /><br />
+              <label for="pwd">Password (Type Password):</label><br />
+              <input type="password" id="pwd" name="password" />
+              <br /><br />
+              <label for="email">Enter your email (Type Email):</label>
+              <input type="email" id="email" name="emailId" />
+              <br /><br />
+              <label for="quantity"
+                >Quantity (between 1 and 5) (Type Number):</label
+              >
+              <input
+                type="number"
+                id="quantity"
+                name="quantity"
+                min="1"
+                max="5"
+              />
+              <br /><br />
+              <label for="myfile">Select a file (Type File):</label>
+              <input type="file" id="myfile" name="file" />
+              <br /><br />
+              <label>Button (Type Button):</label><br />
+              <input
+                type="button"
+                onclick="alert('Hello World!')"
+                value="Click Me!"
+              />
+              <br /><br />
+              <label for="favcolor"
+                >Select your favorite color (Type Color):</label
+              >
+              <input type="color" id="favcolor" name="favoritecolor" />
+              <br /><br />
+              <label for="birthday">Birthday (Type Date):</label>
+              <input type="date" id="birthday" name="birthday" />
+              <br /><br />
+              <label for="bdaymonth">Select Month (Type Month):</label>
+              <input type="month" id="bdaymonth" name="month" />
+              <br /><br /><br />
+              <label for="img"
+                >Image (Type Image): Will submit form. Can be used instead of
+                submit button.</label
+              ><br />
+              <input
+                type="image"
+                id="img"
+                src="./images/img_submit.gif"
+                alt="Submit"
+                width="48"
+                height="48"
+              />
+              <br />
+              <p>Type Submit (Will submit the form):</p>
+              <input type="submit" value="Submit" /><br />
+              <p>Type Reset (Will reset the form)</p>
+              <input type="reset" value="Reset" />
+            </form>
+
+            <br />
+            <img src="./metaImages/form-elements-types.png" alt="" />
+            <br /><br />
+            <h4>Input Type Radio:</h4>
+            <p>
+              <b>Important:</b> name and type attribute of all input fields will
+              be the same.
+            </p>
+            <p>Choose your favorite Web language:</p>
+            <form>
+              <input type="radio" id="html" name="fav_language" value="HTML" />
+              <label for="html">HTML</label>
+              <br />
+              <input type="radio" id="css" name="fav_language" value="CSS" />
+              <label for="css">CSS</label>
+              <br />
+              <input
+                type="radio"
+                id="javascript"
+                name="fav_language"
+                value="JS"
+              />
+              <label for="javascript">JavaScript</label>
+            </form>
+            <br />
+            <img src="./metaImages/radio-element.png" alt="" />
+            <br /><br />
+            <h4>Input Type Checkbox</h4>
+            <p>
+              Checkboxes let a user select ZERO or MORE options of a limited
+              number of choices.
+            </p>
+            <p>
+              <b>Important:</b> type attribute of all input fields will be the
+              same but name will be different.
+            </p>
+
+            <p>Which vehicle do you have?</p>
+            <form>
+              <input
+                type="checkbox"
+                id="vehicle1"
+                name="vehicle1"
+                value="Bike"
+              />
+              <label for="vehicle1"> I have a bike</label><br />
+              <input
+                type="checkbox"
+                id="vehicle2"
+                name="vehicle2"
+                value="Car"
+              />
+              <label for="vehicle2"> I have a car</label><br />
+              <input
+                type="checkbox"
+                id="vehicle3"
+                name="vehicle3"
+                value="Boat"
+              />
+              <label for="vehicle3"> I have a boat</label>
+            </form>
+            <br />
+            <img src="./metaImages/checkbox-element.png" alt="" />
+            <br /><br />
+            <a
+              href="https://www.w3schools.com/html/html_form_input_types.asp"
+              target="_blank"
+              >Link to see and practice all input types.</a
+            >
+            <br />
+          </div>
+
+          <hr />
+
+          <div id="select-element">
+            <h3>The select Element</h3>
+            <p>The select element defines a drop-down list:</p>
+            <form action="/action_page.php">
+              <label for="cars">Choose a car:</label>
+              <select name="My Cars" id="cars" size="2" multiple>
+                <option value="honda">Honda</option>
+                <option value="toyota" selected>Toyota</option>
+                <option value="mazda">Mazda</option>
+                <option value="bmw">BMW</option>
+                <option value="audi">Audi</option>
+              </select>
+              <input type="submit" />
+            </form>
+            <br />
+            <img src="./metaImages/select-element.png" alt="" />
+            <ul>
+              <li>
+                In Example above <b>size</b> defines how many options will be
+                visible.
+              </li>
+              <li>
+                In option <b>selected</b> means, toyota will show up as
+                pre-selected.
+              </li>
+              <li>
+                <b>multiple</b> attribute means, we can select multiple
+                options/values.
+              </li>
+            </ul>
+          </div>
+
+          <hr />
+
+          <div id="button-element">
+            <h3>The button Element</h3>
+            <p>
+              A clickable button. We must always specify the type attribute for
+              the button element. Different browsers may use different default
+              types for the button element.
+            </p>
+            <button type="button" onclick="alert('Hello World!')">
+              I am a Button, Click Me!
+            </button>
+            <br /><br />
+            <img src="./metaImages/button-element.png" alt="" />
+          </div>
+
+          <hr />
+
+          <div id="textarea-element">
+            <h3>The textarea Element</h3>
+            <p>Multi-line input field (a text area).</p>
+            <form action="/action_page.php">
+              <textarea name="message" rows="10" cols="30">
+The cat was playing in the garden.</textarea
+              >
+              <br /><br />
+              <input type="submit" />
+            </form>
+            <br />
+            <img src="./metaImages/textarea-element.png" alt="" />
+          </div>
+
+          <hr />
+
+          <div id="fieldset-legend-element">
+            <h3>The fieldset & legend Element</h3>
+            <p>
+              The <b>fieldset</b> element is used to group related data in a
+              form.
+            </p>
+            <p>
+              The <b>legend</b> element defines a caption for the
+              <b>fieldset</b> element.
+            </p>
+
+            <form action="/action_page.php">
+              <fieldset>
+                <legend>Person:</legend>
+                <label for="fname">First name:</label><br />
+                <input type="text" id="fname" name="fname" value="John" /><br />
+                <label for="lname">Last name:</label><br />
+                <input
+                  type="text"
+                  id="lname"
+                  name="lname"
+                  value="Doe"
+                /><br /><br />
+                <input type="submit" value="Submit" />
+              </fieldset>
+            </form>
+
+            <br />
+            <img src="./metaImages/fieldset-legend-element.png" alt="" />
+          </div>
+        </div>
+      </section>
+      <!-- ***********************  HTML Forms Section Ends*********************** -->
+
+      <a href="#top"><button class="top">Scroll to Top</button></a>
+
+      <!-- ***********************  HTML Media  Section Begins*********************** -->
+      <section id="html-media" class="section">
+        <h1>HTML Media</h1>
+        <hr />
+
+        <div id="audio">
+          <h2>HTML Audio</h2>
+          <p>To play an audio file in HTML, use the <b>audio</b> element:</p>
+          <audio controls>
+            <source src="/media/Flute Of Sri Krishna.mp3" />
+            Your browser does not support the audio element.
+          </audio>
+          <br /><br />
+          <div><img src="./metaImages/audio-element.png" alt="" /></div>
+          <ul>
+            <li>
+              The controls attribute adds audio controls, like play, pause, and
+              volume.
+            </li>
+            <li>
+              The text between the audio tags will only be displayed in browsers
+              that do not support the audio element.
+            </li>
+          </ul>
+        </div>
+
+        <hr />
+
+        <div id="video">
+          <h2>HTML Video</h2>
+          <p>
+            The HTML <b>video</b> element is used to show a video on a web page.
+          </p>
+          <video width="320" height="240" controls>
+            <source src="./media/Ram Siya Ram (Lyrical) Sachet-Parampara.mp4" />
+            Your browser does not support the video tag.
+          </video>
+          <br /><br />
+          <img src="./metaImages/video-element.png" alt="" />
+        </div>
+      </section>
+      <!-- ***********************  HTML Media  Section Ends*********************** -->
+
+      <a href="#top"><button class="top">Scroll to Top</button></a>
+    </main>
+    <hr />
+
+    <footer>
+      Email me:
+      <a href="mailto:deveshkumar2107@hotmail.com"
+        >Click here to send me an email</a
+      >
+    </footer>
+  </body>
+</html>
